@@ -27,7 +27,7 @@ let combined = prompt("Please enter two colors: ")
     }       
 } 
 if (programChoice === deconstruct){
-let deconstructed = prompt("Please enter one colors: ")
+let deconstructed = prompt("Please enter one color: ")
     if (deconstructed === purple){
     console.log("red + blue")} 
     if (deconstructed === orange){
