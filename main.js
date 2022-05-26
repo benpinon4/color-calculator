@@ -21,18 +21,27 @@ let combined = prompt("Please enter two colors: ")
     if(combined === redYellow){
     console.log("Orange")}
     if(combined === blueYellow)
-    (console.log("Green"))
-       
+    console.log("Green")
+    if (combined != redBlue && combined != blueYellow && combined != redYellow){
+    console.log("error")    
+    }       
 } 
- 
-
 if (programChoice === deconstruct){
 let deconstructed = prompt("Please enter one colors: ")
     if (deconstructed === purple){
     console.log("red + blue")} 
     if (deconstructed === orange){
     console.log("red + yellow")}
-    if(deconstructed === green )
-    console.log("blue + yellow")
-
+    if(deconstructed === green ){
+    console.log("blue + yellow")}
+    if (deconstructed != purple && deconstructed != orange && deconstructed != green){
+    console.log("error")    
+    }
 }
+if (programChoice != combine && programChoice != deconstruct) {
+    console.log("error")
+}
+   
+          
+// if (programChoice !== combine || deconstruct){ 
+//     console.log("error")
